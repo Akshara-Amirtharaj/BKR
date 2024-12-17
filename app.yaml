@@ -1,0 +1,9 @@
+runtime: python312  # Use Python 3.12 or the version you're using
+entrypoint: gunicorn -b :$PORT api:app  # 'api' is the filename without extension, 'app' is your Flask instance name.
+
+instance_class: F1  # Choose an instance type (F1 is the smallest, cost-efficient)
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 5
