@@ -1,0 +1,33 @@
+{
+    "template_type": "Service Agreement",
+    "placeholders": {
+      "<< Date >>": "17-12-2024",
+      "<< Reference Number >>": "BKR12-2024-CR707",
+      "<< Client Name >>": "ABC Corporation",
+      "<< Bahraini Ownership >>": "40%",
+      "<< GCC Nationals Ownership >>": "30%",
+      "<< American Nationals Ownership >>": "15%",
+      "<< Foreign Ownership >>": "15%",
+      "<<Text1>>": "5610",
+      "<<Text2>>": "Retail Sale in Non-Specialized Stores",
+      "<<Text3>>": "General retail business activity covering various consumer products.",
+      "<<Text4>>": "6201",
+      "<<Text5>>": "Computer Programming Activities",
+      "<<Text6>>": "Software development, system analysis, and programming services.",
+      "<< Company Formation Cost >>": "1000.00",
+      "<< Desk-Space Office Rental Cost >>": "750.00",
+      "<< Businessman Visa Cost >>": "500.00",
+      "<< Miscellaneous/Admin Charges >>": "250.00",
+      "<< Power of Attorney Cost >>": "300.00",
+      "<< Estimation Charges (Per Head) >>": "100.00",
+      "<< Labour Authority Registration Cost >>": "400.00",
+      "<< Social Insurance Registration Cost >>": "350.00",
+      "<< Free Advice/Guidance Cost >>": "0.00",
+      "<< Total Cost >>": "3650.00",
+      "<< Signatory Name >>": "John Doe",
+      "<< Passport Number >>": "A12345678"
+    },
+    "signature_image": "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"
+}
+
+  
