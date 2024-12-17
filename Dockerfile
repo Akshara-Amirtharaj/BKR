@@ -4,6 +4,8 @@ FROM python:3.12
 # Set the working directory in the container
 WORKDIR /app
 
+# Install LibreOffice
+RUN apt-get update && apt-get install -y libreoffice && apt-get clean
 # Copy the requirements and install dependencies
 COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
